@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>AddEventListener</h3>
+  </body>
+
+  <button id="btn">Show</button>
+
+  <script>
+    var button = document.getElementById("btn");
+
+    // Click event
+    button.addEventListener("click", function () {
+      alert("hey this is a click event...!!");
+    });
+
+    // Mouse over event
+    button.addEventListener("mouseover", () => {
+      alert("Hey this is a mouse over event...!!");
+    });
+  </script>
+</html>
